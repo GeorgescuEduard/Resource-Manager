@@ -26,8 +26,9 @@ A transaction is defined by the following attributes:
 * _Amount_ - the currency that has been transfered
 * _Date_ - the date on which the transaction was made
 
-The application will provide the following operations:
 
+The application will provide the following operations:
+------------------------------------------------------
 Users management: 
 * Create
 * Read
@@ -102,4 +103,4 @@ spring.datasource.username=Eduard
 spring.datasource.password=
 ```
 In order to run application using Maven you must create a tomcat server using Spring Tool Suit and launch the main class BankApplication.java.
-Next you can access the following link using any browser: [http://localhost:8000/todo/](http://localhost:8080/)
+Next you can access the following link using any browser: [http://localhost:8080/](http://localhost:8080/)
