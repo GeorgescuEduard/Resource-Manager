@@ -1,9 +1,49 @@
-# Resource-Manager
- Resource Manager - Spring MVC Web Application
+Resource Manager - Spring MVC Web Application
 ======================================
 
 Application Description
 -----------------------
+
+
+A user is defined by the following attributes:
+
+* _First name_ - user's first name
+* _Last name_ - user's last name
+* _Username_ - unique user's name
+* _Email_ - user's email
+* _Password_ - user's password
+
+A wallet is defined by the following attributes:
+
+* _Name_ - a short wallet name
+* _Description_ - a full description of the wallet
+* _Amount_ - the currency that is available
+* _UserID_ - the owner of the wallet
+
+A transaction is defined by the following attributes:
+
+* _Description_ - a full description of the transaction
+* _Amount_ - the currency that has been transfered
+* _Date_ - the date on which the transaction was made
+
+The application will provide the following operations:
+
+Users management: 
+* Create
+* Read
+* Update
+* Delete
+
+Wallet management:
+* Create
+* Read
+* Update
+* Delete
+* Transfer - _not implemented_
+
+Transaction management - _not implemented_
+
+Authentication method - _not implemented_
 
 Technologies
 ------------
@@ -61,4 +101,5 @@ The database connection details can be changed from file src/main/resources/appl
 spring.datasource.username=Eduard
 spring.datasource.password=
 ```
-In order to run application using Maven you must create a tomcat server using Spring Tool Suit and launching the mail class BankApplication.java.
+In order to run application using Maven you must create a tomcat server using Spring Tool Suit and launch the main class BankApplication.java.
+Next you can access the following link using any browser: [http://localhost:8000/todo/](http://localhost:8080/)
