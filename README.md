@@ -30,7 +30,7 @@ A transaction is defined by the following attributes:
 The application will provide the following operations:
 ------------------------------------------------------
 Users management: 
-* Create
+* [Create](/blob/main/src/main/webapp/WEB-INF/jsp/jspImages/register.png) 
 * Read
 * Update
 * Delete
