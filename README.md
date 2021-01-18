@@ -31,13 +31,13 @@ The application will provide the following operations:
 ------------------------------------------------------
 Users management: 
 * [Create](src/main/webapp/WEB-INF/jsp/jspImages/register.png) 
-* Read
+* [Read](src/main/webapp/WEB-INF/jsp/jspImages/userslist.png) 
 * Update
 * Delete
 
 Wallet management:
-* Create
-* Read
+* [Create](src/main/webapp/WEB-INF/jsp/jspImages/addmethod.png) 
+* [Read](src/main/webapp/WEB-INF/jsp/jspImages/walletlist.png) 
 * Update
 * Delete
 * Transfer - _not implemented_
