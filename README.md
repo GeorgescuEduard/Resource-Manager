@@ -97,6 +97,11 @@ ADD FOREIGN KEY (userid) REFERENCES user(userid);
 ALTER TABLE transaction
 ADD FOREIGN KEY (walletid) REFERENCES wallet(walletid);
 ```
+
+The following image shows the database schema used in this application:
+
+![Database Schema](schema.png "Schema")
+
 The database connection details can be changed from file src/main/resources/application.properties:
 ```properties
 spring.datasource.username=Eduard
